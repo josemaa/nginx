@@ -1,13 +1,16 @@
-#<center>Comparativa con Apache<center>
+#Comparativa con Apache
   
-## Introduccion
-Es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para protocolos de correo electrónico. Es software libre y de código abierto, licenciado bajo la Licencia BSD simplificada; también existe una versión comercialdistribuida bajo el nombre de Nginx Plus
+##Que ventajas presenta nginx frente apache
+  La principal diferencia entre Apache y Nginx (y la más grande) es su arquitectura, mientras que Apache abre un montón de procesos para servir peticiones, Nginx abre solo los hilos de ejecución justos y necesarios permitiendo servir millones de peticiones en un corto espacio de tiempo, ya que no requiere tiempo adicional para abrir nuevos procesos y además al no abrir nuevos procesos tampoco consume mas memoria RAM.
 
+  La diferencia de rendimiento entre Nginx y Apache se nota, ya que el tiempo de respuesta conseguido por Nginx es casi un 150% más rápido que en el caso de Apache.
 
-## ¿Por qué usar Nginx?
+* En el siguiente grafico puedes ver un gráfico de comparación de tiempo de respuesta entre Nginx y Apache:
 
-Nginx es un software multiplataforma, por lo tanto podremos instalarlo en la mayoría de nuestros servidores. Otra razon por la que debemos usarlo es que consume menos recursos que la mayoría de servicio que hacen su misma función.
+ 
+ ![captura1.png](/capturas/captura1.png)
 
+* Y en el siguiente gráfico puedes ver un gráfico donde puedes apreciar el consumo de memoria RAM en el servidor de Apache y de Nginx:
 
-
+ ![captura2.png](/capturas/captura2.png)
  
