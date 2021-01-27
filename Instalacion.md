@@ -8,10 +8,17 @@
 
 <img src=/capturas/instalacion1.png width=600px>
 
+ >> Esto nos saldria al no tener instalado el nginx
 
-*Una vez nos hemos metido remotamante con ssh, lo que debemos hacer es compobar el paquete si esta instalado, si no lo esta procedemos a instalarlo*
+<img src=/capturas/isntalacion3.png width=600px>
 
+*Una vez nos hemos metido remotamante con ssh, lo que debemos hacer es compobar el paquete si esta instalado, si no lo esta procedemos a instalarlo pero antes debemos hacer un update*
 
+<img src=/capturas/instalacion2.png width=600px>
+
+*Una vez hagamos hecho los pasos anteriores procedemos a verificar que funciona correctamente*
+
+<img src=/capturas/instalacion4.png width=600px>
 
 
 
