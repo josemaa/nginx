@@ -9,5 +9,5 @@ Es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para prot
 Nginx es un software multiplataforma, por lo tanto podremos instalarlo en la mayoría de nuestros servidores. Otra razon por la que debemos usarlo es que consume menos recursos que la mayoría de servicio que hacen su misma función.
 
 
-
+   ![captura3.png](/capturas/captura3.png)
  
