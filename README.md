@@ -7,7 +7,7 @@ Hemos termina el CFGS ASIR y hemos encontrado trabajo en la empresa Servicio RC,
 
 ## ÍNDICE
 1. [Introducción]()
-2. [comparativa con Apache]()
+2. [Comparativa con Apache]()
 3. [Esquema de red]()
 4. [Instalación]()
 5. [Casos prácticos]()
