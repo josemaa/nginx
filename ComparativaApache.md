@@ -1,4 +1,4 @@
-#<center>Comparativa con Apache<center>
+#<div style="text-align: center">Comparativa con Apache</div>
   
 ## Introduccion
 Es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para protocolos de correo electrónico. Es software libre y de código abierto, licenciado bajo la Licencia BSD simplificada; también existe una versión comercialdistribuida bajo el nombre de Nginx Plus
