@@ -2,12 +2,16 @@
 
 ## DESCRIPCION
 
-Este proyecto consiste en la instalacion de docker y docker-compose en CentOs y vamos a comprobar que funciona correctamente creando unos contenedores con docker-compose
+Hemos termina el CFGS ASIR y hemos encontrado trabajo en la empresa Servicio RC,SA en huelva, anteriormente utilizaban Apache como servidor web, y se estan planteando migrar en Nginx. Por lo que nuestra tarea consiste en realizar un estudio de Nginx y realizar un informe.
+
 
 ## ÍNDICE
 1. [Introducción]()
 2. [comparativa con Apache]()
 3. [Esquema de red]()
+4. [Instalación]()
+5. [Casos prácticos]()
+6. [Referencias]()
 
 ## REFERENCIAS
 
