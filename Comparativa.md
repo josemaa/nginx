@@ -1,6 +1,6 @@
-#Comparativa con Apache
+# Comparativa con Apache
   
-##Que ventajas presenta nginx frente apache
+## Que ventajas presenta nginx frente apache
 
   La principal diferencia entre Apache y Nginx (y la más grande) es su arquitectura, mientras que Apache abre un montón de procesos para servir peticiones, Nginx abre solo los hilos de ejecución justos y necesarios permitiendo servir millones de peticiones en un corto espacio de tiempo, ya que no requiere tiempo adicional para abrir nuevos procesos y además al no abrir nuevos procesos tampoco consume mas memoria RAM.
 
