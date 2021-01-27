@@ -8,7 +8,7 @@ Hemos termina el CFGS ASIR y hemos encontrado trabajo en la empresa Servicio RC,
 ## ÍNDICE
 1. [Introducción](https://github.com/josemaa/nginx/blob/main/Introduccion.md)
 2. [Comparativa con Apache](https://github.com/josemaa/nginx/blob/main/Comparativa.md)
-3. [Esquema de red]()
+3. [Esquema de red](https://github.com/josemaa/nginx/blob/main/EsquemaRed.md)
 4. [Instalación]()
 5. [Casos prácticos]()
 6. [Referencias]()
