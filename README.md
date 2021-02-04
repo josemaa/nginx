@@ -15,4 +15,4 @@ Hemos termina el CFGS ASIR y hemos encontrado trabajo en la empresa Servicio RC,
 
 ## REFERENCIAS
 
-Entre otras paginas hemos visto el siguiente video el cual nos explica un poco como empezar el proyecto [nginxyoutube](https://www.youtube.com/watch?v=rfo_7J_0MGw)
+ -  [nginxyoutube](https://www.youtube.com/watch?v=rfo_7J_0MGw)
