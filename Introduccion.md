@@ -1,4 +1,5 @@
-#Nginx servidor web 
+# Nginx servidor web 
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/250px-Nginx_logo.svg.png)
   
 ## Introduccion
 Es un servidor web/proxy inverso ligero de alto rendimiento y un proxy para protocolos de correo electrónico. Es software libre y de código abierto, licenciado bajo la Licencia BSD simplificada; también existe una versión comercialdistribuida bajo el nombre de Nginx Plus
