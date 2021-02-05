@@ -159,7 +159,15 @@
  
  <img src=/capturas/autentificacion4.png width=600px>
  
+### 8.-Red interna no pide autentificacion y externa si
 
+* Añadimos las siguientes lineas al codigo y comprobamos:
+
+<img src=/capturas/autentificacion5.png width=600px>
+
+* Reiniciamos
+
+```systemctl restart nginx.service```
  
  
  
