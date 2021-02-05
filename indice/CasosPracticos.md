@@ -5,7 +5,7 @@
 
 *Vamos a mostrar acontinuación los casos practicos por apartados y estaran enlazados a una pagina aparte donde estara los codigos de cada apartado*
 
-### Version Nginx Instalada
+### 1.-Version Nginx Instalada
  
  ```nginx -v```
 
@@ -13,7 +13,7 @@
 <img src=/capturas/apartadoA.png width=600px>
 
 
-### Servicio Asociado
+### 2.-Servicio Asociado
  
  ```systemctl status nginx```
 
@@ -21,14 +21,14 @@
 <img src=/capturas/serAsociado.png width=600px>
 
 
-### Ficheros de configuracion
+### 3.-Ficheros de configuracion
  
  Los ficheros de configuracion los podemos encontrar en ```/etc/nginx```, y el fichero el cual contiene la configuración basica y general es ```nginx.conf```
 
 
 <img src=/capturas/ficheroconf.png width=600px>
 
-### Pagina web por defecto
+### 4.-Pagina web por defecto
  
  * Siempre es aconsejable hacer copia del index inicial por si lo necesitamos:
  
@@ -45,7 +45,7 @@
 
 <img src=/capturas/paginadefecto.png width=600px>
 
-### Virutal Hosting
+### 5.-Virutal Hosting
 
  **Tenemos dos sitios virtuales con la misma ip y con el mismo puerto, entonces vamos a configurarlos cada sitio virtual con un dominio distinto, web1 tendra el dominio (www.web1.org) y web2 tendra el dominio (www.web2.org).**
 
@@ -95,7 +95,7 @@
    
    * Buscamos www.web1.org y www.web2.org
     
-### Control de Acceso: A la web1 se podrá acceder tanto desde la red externa como interna, a la web2, solo de la interna.
+### 6.-Control de Acceso: A la web1 se podrá acceder tanto desde la red externa como interna, a la web2, solo de la interna.
 
  * Editamos el fichero de configuracion de la web2 añadiendo las siguientes lineas:
    Fichero ----> ```/etc/nginx/sites-avaible/web2```
@@ -121,7 +121,7 @@
  <img src=/capturas/Redinterna.PNG width=600px>
  
  
- ### Autentificacion Usuario
+ ### 7.-Autentificacion Usuario
  
  **Creamos un directorio web1 que se llame privado y al cual solo pueden acceder usuarios validos**
 
