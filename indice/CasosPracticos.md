@@ -120,6 +120,53 @@
 
  <img src=/capturas/Redinterna.PNG width=600px>
  
+ 
+ ### Autentificacion Usuario
+ 
+ **Creamos un directorio web1 que se llame privado y al cual solo pueden acceder usuarios validos**
+
+ * Crearemos el directorio ```/var/www/web1/privado```
+ 
+ ```mkdir privado```
+
+<img src=/capturas/autentificacion.png width=600px>
+
+
+* Añadimos las siguientes lineas en el fichero de configuracion de web1 ```/etc/nginx/sites-avaible/web1```
+ 
+ 
+<img src=/capturas/autentificacion2.png width=600px>
+
+* Instalamos el paquete apache2-utils
+
+ ```apt install apache2-utils```
+ 
+ * Creamos las credenciales en el fichero del usuario
+
+ ```cd /etc/nginx```
+ ```htpasswd -c -m .htpasswd usuario```
+ 
+ **Nuestro usuario seria, usuario y el archivo que contiene todo es .htpasswd.
+ -c ---> crea un fichero
+ -m ---> obliga la encriptacion MD5**
+ 
+  <img src=/capturas/autentificacion3.png width=600px>
+ 
+ - Reiniciamos servicio
+  ```systemctl restart nginx.service```
+ 
+ * Comprobamos
+ 
+ <img src=/capturas/autentificacion4.png width=600px>
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
 
   
 
