@@ -116,6 +116,10 @@
 
  <img src=/capturas/Redexterna.png width=600px>
  
+    - Red Interna
+
+ <img src=/capturas/Redinterna.png width=600px>
+ 
 
   
 
