@@ -168,6 +168,44 @@
 * Reiniciamos
 
 ```systemctl restart nginx.service```
+
+### 9.-Configurar www.web1.org como seguro
+
+* Instalamos openss
+
+
+```sudo apt install openssl```
+
+* Generamos clave privada para la web en el directorio /etc/ssl
+
+```openssl genrsa -out web1.key 2048```
+
+* Generamos certificado
+
+```openssl req -new -key web1.key -out web1.csr```
+
+* Firmamos certificado
+
+```openssl x509 -req -days 365 -in web1.csr -signkey web1.key -out web1.crt```
+
+* Copiamos web1 para configurarlo como ssl
+
+```cd /etc/nginx/sites-available```
+```cp web1 web1-ssl```
+```ln -s /etc/nginx/sites-availabe/web1-ssl /etc/nginx/sites-enabled/```
+
+* Añadimos las siguientes lineas al fichero /etc/nginx/sites-avaible/web1-ssl
+
+```ssl on;```
+```ssl_certificate /etc/ssl/web1.crt;```
+```ssl_certificate_key /etc/ssl/web1.key;```
+
+* Reiniciamos el servicio
+
+```systemctl restart nginx.service```
+ 
+ 
+ 
  
  
  
