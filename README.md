@@ -16,3 +16,5 @@ Hemos termina el CFGS ASIR y hemos encontrado trabajo en la empresa Servicio RC,
 ## REFERENCIAS
 
  -  [nginxyoutube](https://www.youtube.com/watch?v=rfo_7J_0MGw)
+ -  [Instalacion ngxin](https://chachocool.com/como-instalar-nginx-en-debian-10-buster/)
+ -  [Openssl](https://carlosazaustre.es/como-instalar-un-servidor-https-en-nginx-desde-cero/)
